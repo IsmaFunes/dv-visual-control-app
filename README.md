@@ -10,6 +10,7 @@ You can see a working demo [here](https://ismafunes.github.io/dv-visual-control-
 - API calls could be implemented in a more generic way
 - Routing could and should be implemented
 - Responsiveness could be implemented using `react-responsive` library or the `useMediaQuery` from material-ui (the app looks weird in mobile)
+- The `thumb` property of each video is a relative path, hence it should be consumed from a CDN or some kind of storage 
 
 ----
 
