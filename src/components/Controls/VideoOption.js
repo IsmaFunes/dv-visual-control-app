@@ -31,7 +31,9 @@ const VideoOption = ({
         secondary={
           <>
             <p>{subtitle}</p>
-            <p>{description.slice(0, 50)}...</p>
+            <p>{description.length > 50 ?
+              `${description.slice(0, 50)}...`
+              : description}</p>
           </>
         }
       />
