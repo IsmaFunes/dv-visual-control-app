@@ -9,7 +9,7 @@ You can see a working demo [here](https://ismafunes.github.io/dv-visual-control-
 - API Url used in `src/services/video.js` should be consumed from an ENV variable
 - API calls could be implemented in a more generic way
 - Routing could and should be implemented
-- Responsiveness could be implemented using `react-responsive` library (the app looks weird in mobile)
+- Responsiveness could be implemented using `react-responsive` library or the `useMediaQuery` from material-ui (the app looks weird in mobile)
 
 ----
 
