@@ -17,7 +17,6 @@ const ControlsContainer = () => {
   const playVideo = () => dispatch(play());
   const pauseVideo = () => dispatch(pause());
   const selectVideo = (video) => {
-    window.scrollTo(0, 0);
     dispatch(setCurrentVideo(video))
   };
   const changeVolume = (_, newValue) => dispatch(setVolume(newValue / 100));
