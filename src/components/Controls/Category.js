@@ -28,9 +28,10 @@ const Category = ({
       {name}
     </AccordionSummary>
     <AccordionDetails>
-      {videos.map(video => (
-        <List dense component="nav">
+      <List dense component="nav">
+        {videos.map(video => (
           <VideoOption
+            key={video.title}
             title={video.title}
             description={video.description}
             subtitle={video.subtitle}
@@ -38,8 +39,8 @@ const Category = ({
             onClick={onVideoSelected}
             thumbnail={video.thumb}
           />
-        </List>
-      ))}
+        ))}
+      </List>
     </AccordionDetails>
   </Accordion>
 );
